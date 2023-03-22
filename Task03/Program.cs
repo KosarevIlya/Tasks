@@ -13,4 +13,4 @@ else if (number == 5) Console.WriteLine("Пятница");
 else if (number == 6) Console.WriteLine("Суббота");
 else if (number == 7) Console.WriteLine("Воскресенье");
 
-else Console.WriteLine("Не вверно введен нормер дня недели");
+else Console.WriteLine("Не вверно введен номер дня недели");
