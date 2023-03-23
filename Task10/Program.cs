@@ -7,9 +7,13 @@
 
 Console.WriteLine("Ведите трёхзначное число=");
 int number = Convert.ToInt32(Console.ReadLine());
+
+if (99 < number && number < 1000)
+{
 Console .WriteLine 
 ($"Вторым числом является {Secondnumber(number)}");
-
+}
+else Console.WriteLine("Вы ввели неверное число");
 
 int Secondnumber (int num)
 
