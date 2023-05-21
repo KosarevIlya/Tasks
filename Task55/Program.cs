@@ -47,5 +47,10 @@ return matrix;
 int [,] matrix = CreateMatrixRndInt(4, 4, 0, 10);
 PrintMatrix(matrix);
 Console.WriteLine();
+if (matrix.GetLength(0) == matrix.GetLength(1))
+{
 int[,] newmatrix = CreateNewArray(matrix);
 PrintMatrix(newmatrix);
+}
+
+else WriteLine("Матрица не является симметричной");
