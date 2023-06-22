@@ -9,10 +9,10 @@ int number = Convert.ToInt32(Console.ReadLine());
 NatureNumberContraray(number);
 
 
-void NatureNumberContraray (int num)
+void NatureNumberContraray(int num)
 {
 
     if (num == 0) return;
-    Console.Write($"{num}   " );
-    NatureNumberContraray(num-1);
+    Console.Write($"{num}   ");
+    NatureNumberContraray(num - 1);
 }
